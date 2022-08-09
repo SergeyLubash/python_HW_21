@@ -3,11 +3,11 @@ from abc import abstractmethod, ABC
 
 class Storage(ABC):
     @abstractmethod
-    def add(self, count):
+    def add(self, name, count):
         pass
 
     @abstractmethod
-    def remove(self, count):
+    def remove(self, name, count):
         pass
 
     @abstractmethod
